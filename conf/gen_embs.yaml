@@ -3,7 +3,7 @@ defaults:
   - ctx_sources: table_sources
 
 # A trained bi-encoder checkpoint file to initialize the model
-model_file: 
+model_file: "/home/angelo/nqt-retrieval/nqt-retrieval/checkpoint/bert-base-encoder.cp"
 
 # Name of the all-passages resource
 ctx_src: nq_table

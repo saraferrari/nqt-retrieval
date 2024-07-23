@@ -7,7 +7,7 @@ nq_table_raw:
 
 nq_table: 
   _target_: dpr.data.retriever_data.JsonlNqtCtxSrc
-  file: "/mnt/zhiruow/hitab/table-retrieval/datasets/nq_table/tables_proc.jsonl"
+  file: "/dataset/tables/tables_proc_2.jsonl"
   id_prefix: 'nqt:'
 
 nq_table_all: 
