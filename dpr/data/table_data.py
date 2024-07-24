@@ -3,7 +3,8 @@
 from re import A
 import torch 
 from typing import Dict, List, Tuple
-from .biencoder_data import BiEncoderTable
+from dpr.data.biencoder_data import BiEncoderTable
+#from .biencoder_data import BiEncoderTable
 
 import logging 
 logger = logging.getLogger(__name__)

@@ -22,8 +22,8 @@ from dpr.data.biencoder_data import (
     BiEncoderTable, 
     get_nq_table_files, 
     get_processed_table, 
-    get_processed_table_wiki, 
-    get_processed_table_wqt, 
+    #get_processed_table_wiki, 
+    #get_processed_table_wqt, 
 ) 
 
 from dpr.utils.data_utils import normalize_question
@@ -427,7 +427,7 @@ class JsonlNqtCtxSrc(object):         # pre-processed version
         self.id_prefix = id_prefix 
         
         self.data_files = [] 
-    
+   
     def load_data(self): 
         self.data_files = get_nq_table_files(self.file)
         assert (len(self.data_files) == 1), \

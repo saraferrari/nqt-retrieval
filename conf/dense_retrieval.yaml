@@ -47,7 +47,7 @@ index_path:
 kilt_out_file:
 
 # A trained bi-encoder checkpoint file to initialize the model
-model_file:
+model_file:  "/home/angelo/nqt-retrieval/nqt-retrieval/checkpoint/bert-base-encoder.cp"
 
 validate_as_tables: False
 

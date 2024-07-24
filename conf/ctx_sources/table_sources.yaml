@@ -2,17 +2,17 @@
 
 nq_table_raw: 
   _target_: dpr.data.retriever_data.JsonlNQTablesCtxSrc
-  file: "/mnt/zhiruow/hitab/table-retrieval/datasets/nq_table/tables.jsonl"
+  file: "/home/angelo/nqt-retrieval/nqt-retrieval/dataset/tables/tables.jsonl"
   id_prefix: 'nqt:'
 
 nq_table: 
   _target_: dpr.data.retriever_data.JsonlNqtCtxSrc
-  file: "/dataset/tables/tables_proc_2.jsonl"
+  file: "/home/angelo/nqt-retrieval/nqt-retrieval//dataset/tables/tables_proc_2.jsonl"
   id_prefix: 'nqt:'
 
 nq_table_all: 
   _target_: dpr.data.retriever_data.JsonlNqtCtxSrc
-  file: "/mnt/zhiruow/hitab/table-retrieval/datasets/nq_table/tables_all.jsonl"
+  file: "/home/angelo/nqt-retrieval/nqt-retrieval//dataset/tables/tables_all.jsonl"
   id_prefix: 'nqt:'
 
 
