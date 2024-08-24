@@ -2,12 +2,12 @@
 
 nq_table_test:
   _target_: dpr.data.retriever_data.JsonlQASrcTable
-  file: "/home/sara.ferrari/nqt-retrieval/dataset/interactions/test.jsonl"
+  file: "/home/angelo/nqt-retrieval/nqt-retrieval/dataset/interactions/test.jsonl"
 
 nq_table_dev:
   _target_: dpr.data.retriever_data.JsonlQASrcTable
-  file: "/home/sara.ferrari/nqt-retrieval/dataset/interactions/dev.jsonl"
+  file: "/home/angelo/nqt-retrieval/nqt-retrieval/dataset/interactions/dev.jsonl"
 
 nq_table_train:
   _target_: dpr.data.retriever_data.JsonlQASrcTable
-  file: "/home/sara.ferrari/nqt-retrieval/dataset/interactions/train.jsonl"
+  file: "/home/angelo/nqt-retrieval/nqt-retrieval/dataset/interactions/train.jsonl"
