@@ -143,12 +143,13 @@ def main(cfg: DictConfig):
             ctx_sources.append(ctx_src)
             logger.info("ctx_sources: %s", type(ctx_src))
 
-        logger.info("id_prefixes per dataset: %s", id_prefixes)
+        logger.info("id_prefixes: %s", id_prefixes)
 
         # index all passages
         ctx_files_patterns = cfg.encoded_ctx_files
 
         logger.info("ctx_files_patterns: %s", ctx_files_patterns)
+        logger.info("Type of ctx_files_patterns: %s", type(ctx_files_patterns))
         if ctx_files_patterns:
             assert len(ctx_files_patterns) == len(id_prefixes), "ctx len={} pref leb={}".format(
                 len(ctx_files_patterns), len(id_prefixes)

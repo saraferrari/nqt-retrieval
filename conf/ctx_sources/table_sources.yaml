@@ -2,47 +2,47 @@
 
 nq_table_raw: 
   _target_: dpr.data.retriever_data.JsonlNQTablesCtxSrc
-  file: "/home/angelo/nqt-retrieval/nqt-retrieval/dataset/tables/tables.jsonl"
+  file: "/home/sara.ferrari/nqt-retrieval/dataset/tables/tables.jsonl"
   id_prefix: 'nqt:'
 
 nq_table: 
   _target_: dpr.data.retriever_data.JsonlNqtCtxSrc
-  file: "/home/angelo/nqt-retrieval/nqt-retrieval//dataset/tables/tables_proc_2.jsonl"
+  file: "/home/sara.ferrari/nqt-retrieval/dataset/tables/tables_proc_2.jsonl"
   id_prefix: 'nqt:'
 
 nq_table_all: 
   _target_: dpr.data.retriever_data.JsonlNqtCtxSrc
-  file: "/home/angelo/nqt-retrieval/nqt-retrieval//dataset/tables/tables_all.jsonl"
+  file: "/home/sara.ferrari/nqt-retrieval/dataset/tables/tables_all.jsonl"
   id_prefix: 'nqt:'
 
 
-nq_table_row: 
-  _target_: dpr.data.retriever_data.JsonlNqtCtxSrc
-  file: "/mnt/zhiruow/hitab/table-retrieval/datasets/nq_table/tables_row.jsonl"
-  id_prefix: 'nqt:'
+#nq_table_row: 
+#  _target_: dpr.data.retriever_data.JsonlNqtCtxSrc
+#  file: "/mnt/zhiruow/hitab/table-retrieval/datasets/nq_table/tables_row.jsonl"
+#  id_prefix: 'nqt:'
 
-nq_table_column: 
-  _target_: dpr.data.retriever_data.JsonlNqtCtxSrc
-  file: "/mnt/zhiruow/hitab/table-retrieval/datasets/nq_table/tables_column.jsonl"
-  id_prefix: 'nqt:'
+#nq_table_column: 
+#  _target_: dpr.data.retriever_data.JsonlNqtCtxSrc
+#  file: "/mnt/zhiruow/hitab/table-retrieval/datasets/nq_table/tables_column.jsonl"
+#  id_prefix: 'nqt:'
 
-nq_table_both: 
-  _target_: dpr.data.retriever_data.JsonlNqtCtxSrc
-  file: "/mnt/zhiruow/hitab/table-retrieval/datasets/nq_table/tables_both.jsonl"
-  id_prefix: 'nqt:'
+#nq_table_both: 
+#  _target_: dpr.data.retriever_data.JsonlNqtCtxSrc
+#  file: "/mnt/zhiruow/hitab/table-retrieval/datasets/nq_table/tables_both.jsonl"
+#  id_prefix: 'nqt:'
 
 
-nq_table_dcell: 
-  _target_: dpr.data.retriever_data.JsonlNqtCtxSrc
-  file: "/mnt/zhiruow/hitab/table-retrieval/datasets/nq_table/tables_dcell.jsonl"
-  id_prefix: 'nqt:'
+#nq_table_dcell: 
+#  _target_: dpr.data.retriever_data.JsonlNqtCtxSrc
+#  file: "/mnt/zhiruow/hitab/table-retrieval/datasets/nq_table/tables_dcell.jsonl"
+#  id_prefix: 'nqt:'
 
-nq_table_drow: 
-  _target_: dpr.data.retriever_data.JsonlNqtCtxSrc
-  file: "/mnt/zhiruow/hitab/table-retrieval/datasets/nq_table/tables_drow.jsonl"
-  id_prefix: 'nqt:'
+#nq_table_drow: 
+#  _target_: dpr.data.retriever_data.JsonlNqtCtxSrc
+#  file: "/mnt/zhiruow/hitab/table-retrieval/datasets/nq_table/tables_drow.jsonl"
+#  id_prefix: 'nqt:'
 
-nq_table_dnone: 
-  _target_: dpr.data.retriever_data.JsonlNqtCtxSrc
-  file: "/mnt/zhiruow/hitab/table-retrieval/datasets/nq_table/tables_dnone.jsonl"
-  id_prefix: 'nqt:'
+#nq_table_dnone: 
+#  _target_: dpr.data.retriever_data.JsonlNqtCtxSrc
+#  file: "/mnt/zhiruow/hitab/table-retrieval/datasets/nq_table/tables_dnone.jsonl"
+#  id_prefix: 'nqt:'
