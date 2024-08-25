@@ -11,3 +11,11 @@ nq_table_dev:
 nq_table_train:
   _target_: dpr.data.retriever_data.JsonlQASrcTable
   file: "/home/sara.ferrari/nqt-retrieval/dataset/interactions/train.jsonl"
+
+AITQA_test:
+  _target_: dpr.data.retriever_data.JsonlQASrcTable
+  file: "/home/sara.ferrari/nqt-retrieval/dataset/raw_data/trasformed_question.json"  
+
+AITQA_test_tables:
+  _target_: dpr.data.retriever_data.JsonlQASrcTable
+  file: "/home/sara.ferrari/nqt-retrieval/dataset/raw_data/trasformed_question_with_tables.json"    

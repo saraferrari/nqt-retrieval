@@ -15,6 +15,11 @@ nq_table_all:
   file: "/home/sara.ferrari/nqt-retrieval/dataset/tables/tables_all.jsonl"
   id_prefix: 'nqt:'
 
+AITQA: 
+  _target_: dpr.data.retriever_data.JsonlNqtCtxSrc
+  file: "/home/sara.ferrari/nqt-retrieval/dataset/raw_data/transformed_tables4.jsonl"
+  id_prefix: 'nqt:'  
+
 
 #nq_table_row: 
 #  _target_: dpr.data.retriever_data.JsonlNqtCtxSrc
