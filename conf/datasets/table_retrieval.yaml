@@ -14,8 +14,8 @@ nq_table_train:
 
 AITQA_test:
   _target_: dpr.data.retriever_data.JsonlQASrcTable
-  file: "/home/sara.ferrari/nqt-retrieval/dataset/raw_data/trasformed_question.json"  
+  file: "/home/sara.ferrari/nqt-retrieval/dataset/raw_data/trasformed_question.jsonl"
 
 AITQA_test_tables:
   _target_: dpr.data.retriever_data.JsonlQASrcTable
-  file: "/home/sara.ferrari/nqt-retrieval/dataset/raw_data/trasformed_question_with_tables.json"    
+  file: "/home/sara.ferrari/nqt-retrieval/dataset/raw_data/trasformed_question_with_tables.jsonl"
